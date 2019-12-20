@@ -1,1 +1,13 @@
 # INTERNATIONAL-DEBT-STATISTICS
+### Motivation
+To  help businesses  interested  in  solving real worldproblems in  figuringout and developing applications and solutions for countries which are in need of financial advancement and betterment.
+### Dataset Description
+The dataset is hosted  by  The  World  Bank https://databank.worldbank.org/source/international-debt-statistics . It  consistsof  2 data tables,containing records  of  over  170  countries  across  20  economic topics  and  498  indicators from  1970  to 2026. It  focuses  on  trends  in  external  debts  affected  by  major financial  indicators  for  low  and  middle  income  countries.  The  granularity  of  the  dataset  goes  to  global, regional and national level and is updated in real-time.Data Cleaning and Preprocessing Datatables  wereloaded  into  sqlite3,  datawas  cleaned,  unnecessary  columns  were  dropped  and datasets were imported to Jupyter Notebook after joining both the tables.
+### Analysis
+Following analysis was performed on data:
+* Finding indicators contributing minimum and maximumto International debt across all countries. *Import  of  goods  and services* was found  to  have maximum  debt  of  around  40T USD,  whereas Current account balance was found to have minimum of around-75B USD.
+* Categorizing data based on factors like income and geographical locations and understanding the trend  of  debt over  the  years. *Lower  and middle income countries* were found to  have  maximum debt  where as  in  geographical locations *Latin America and Caribbean* were found to  have  most debt.
+* Understanding the trend of debt over the years. Dropdowns were created to find total debt for all the  countries from  1970  to 2026. Countries  with  maximum debt in 2018 were selected  and data from all indicators were merged into respective topics to create dropdown sand trend of debt for top 5 countries that is India, Russia, Mexico, China and Brazil were plotted.
+* Analyzing how debt for various topics has varied over the years for India and what percentage of total debt each topic holds in present. *Economic Policy & Debt: External debt: Debt outstanding* was found to have  maximum share  of 56.5%. For further analysis, what indicators  comprises  of *Economic Policy & Debt: External debt: Debt outstanding* were evaluated. It was found to have 65 various indicators,where *External Debt Stocks* was found to maximum share of 12.2%.
+### Conclusion 
+With  the  above analysis it  can  be  inferred  how  international  debt  has  variedover  years  across various factors and indicators for low and middle income countries. Following these trends,solutions can be obtained for financial advancement and development of countries.
